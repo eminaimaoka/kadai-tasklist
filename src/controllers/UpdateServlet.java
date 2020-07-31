@@ -60,7 +60,7 @@ protected void doPost(HttpServletRequest request, HttpServletResponse response) 
         em.close();
 
         // セッションスコープ上の不要になったデータを削除
-        request.getSession().removeAttribute("message_id");
+        request.getSession().removeAttribute("task_id");
 
         // indexページへリダイレクト
         response.sendRedirect(request.getContextPath() + "/index");
