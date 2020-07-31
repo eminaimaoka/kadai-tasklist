@@ -11,7 +11,7 @@
     <body>
         <div id="wrapper">
             <div id="header">
-                <h1>タスクアプリケーション</h1>
+                <h1>-Task Application-</h1>
             </div>
             <div id="content">
                 ${param.content}

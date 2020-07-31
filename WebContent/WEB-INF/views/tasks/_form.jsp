@@ -9,7 +9,7 @@
 
     </div>
 </c:if>
-<label for="title">タイトル</label><br />
+<label for="title">Title</label><br />
 
 
 <input type="text" name="title" value="${task.title}" />
